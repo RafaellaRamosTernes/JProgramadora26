@@ -1,2 +1,2 @@
-aluna = input("Qual seu nome")
-print=("Olá", aluna)
+aluna=input("Qual o seu nome?")
+print("Olá", aluna)
