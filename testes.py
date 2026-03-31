@@ -1,3 +1,15 @@
-nascimento = int(input("Ano de nascimento: "))
-ano_atual = 2026 
-print(f"Sua idade estimada em 2026 é: {ano_atual - nascimento} anos")
+
+num1 = float(input("Primeiro número: "))
+operacao = input("Operação (+, -, /, *): ")
+num2 = float(input("Segundo número: "))
+
+if operacao == "+":
+    resultado = num1 + num2
+elif operacao == "-":
+    resultado = num1 - num2
+elif operacao == "/":
+    resultado = num1 / num2
+elif operacao == "*":
+    resultado = num1 * num2
+
+print("Resultado: " + str(resultado))
